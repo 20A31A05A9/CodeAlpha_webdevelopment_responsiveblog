@@ -1,0 +1,201 @@
+<html>
+
+<head>
+    <meta name="viewport" content=" with=device-width, initial-scale=1.0">
+    <title> University Website Design - Chaitanya Reddy </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+
+            <a href="index.html"><img src="images/logo.jpg"></a>
+
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+    </section>
+    <br>
+    <br>
+
+    <!------------------courses---------------------->
+
+    <section class="course">
+        <h1> Courses We Offer</h1>
+
+        <div class="row">
+            <div class="course-col">
+                <h3> Computer Science and Engineering</h3>
+                <p>The topics covered in the course are computation, algorithms, programming languages,
+                    program design, computer software, computer hardware and others.</p>
+            </div>
+            <br>
+
+            <div class="course-col">
+                <h3> Electronic and Communication Enginnering</h3>
+                <p>Electronics and communication engineering (ECE) is a discipline of engineering that involves
+                    developing and testing electronic circuits and communication devices .
+                </p>
+            </div>
+            <br>
+
+            <div class="course-col">
+                <h3> Electrical and Electronics Engineering.</h3>
+                <p> Electronics engineering is that branch of electrical engineering concerned with the uses
+                    of the electromagnetic spectrum and with the application of such electronic devices as
+                    integrated circuits and transistors.
+                </p>
+            </div>
+            <br>
+
+        </div>
+
+
+        <div class="row">
+            <div class="course-col">
+                <h3> Mechanical Engineering</h3>
+                <p>Mechanical engineering is a STEM field related to the design, analysis, testing,
+                    and manufacture of objects ranging from children's toys to airplanes.
+                    More students study mechanical engineering than any other branch of engineering.</p>
+            </div>
+            <br>
+
+            <div class="course-col">
+                <h3> Civil Engineering</h3>
+                <p>Civil engineering is a professional engineering discipline that deals with the design,
+                    construction, and maintenance of the physical and naturally built environment, including
+
+                </p>
+            </div>
+            <br>
+            <div class="course-col">
+                <h3> Information Technology</h3>
+                <p> Information technology (IT) is the use of computers to create, process, store, retrieve
+                    and exchange all kinds of data[1] and information. IT forms part of information and
+                    communications technology
+                </p>
+            </div>
+            <br>
+
+        </div>
+        <br>
+    </section>
+
+    <!------------------------------------facilities------------------->
+
+    <section class="facilities">
+
+        <h1> Our facilities</h1>
+
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="/images/library.webp" alt="">
+                <h3> World Class Library</h3>
+                <p>A college library is a dedicated space within a college or university campus that serves
+                    as a hub of knowledge and information.</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="/images/computers.jpg" alt="">
+                <h3> Computer Lab</h3>
+                <p>The objective of this lab is to provide a student with an understanding of the fundamental concepts
+                    of system software and to provide the skills needed for developing a software application</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="/images/labs.jpeg" alt="">
+                <h3> Pracical Labs</h3>
+                <p>facility that provides controlled conditions in which scientific </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------footer--------------------------->
+    <section class="footer" id="About Us">
+        <div class="contanier" id="About Us">
+            <h4> About Us</h4>
+            <p>
+                Pragati Engineering College, Surampalem was established in 2001 by the Gayatri Educational Society.
+                The Institute is placed in an<br> area of 25 acres of land giving wide academic and infrastructural
+                facilities.</p>
+            <div class="icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+    <!---------------------- JavaScrpit for Toggle Menu------------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+
+</html>

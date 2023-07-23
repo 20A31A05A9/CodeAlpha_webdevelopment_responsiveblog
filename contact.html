@@ -1,0 +1,154 @@
+<html>
+
+<head>
+    <meta name="viewport" content=" with=device-width, initial-scale=1.0">
+    <title> University Website Design - Chaitanya Reddy </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+
+            <a href="index.html"><img src="images/logo.jpg"></a>
+
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+
+
+    </section>
+    <!------------contact us------------->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3813.7791673062115!2d82.05107827502758!3d17.083451283752805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a378326fa313f8f%3A0xf643a6e1e69e4d40!2sPragati%20Engineering%20College!5e0!3m2!1sen!2sin!4v1690017832446!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5> surampalem,kakinada</h5>
+                        <p> andhrapradesh,india</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5> 6534235567</h5>
+                        <p> monday to sunday 24/7</p>
+                    </span>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                    <span>
+                        <h5> pragati@ac.in</h5>
+                        <p> Email us your query</p>
+                    </span>
+
+                </div>
+            </div>
+
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter Email address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn"> Send Message</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------footer--------------------------->
+    <section class="footer" id="About Us">
+        <div class="contanier" id="About Us">
+            <h4> About Us</h4>
+            <p>
+                Pragati Engineering College, Surampalem was established in 2001 by the Gayatri Educational Society.
+                The Institute is placed in an<br> area of 25 acres of land giving wide academic and infrastructural
+                facilities.</p>
+            <div class="icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+    <!---------------------- JavaScrpit for Toggle Menu------------>
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
